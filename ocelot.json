@@ -1,0 +1,16 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/Usuarios/ListarUsuarios",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5133
+        }
+      ],
+      "UpstreamPathTemplate": "/ListarUsuarios",
+      "UpstreamHttpMethod": [ "Get" ]
+    }
+  ]
+}
